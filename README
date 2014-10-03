@@ -1,0 +1,8 @@
+
+posh
+====
+
+posh is the command name for the POSIX Shell.   The POSIX Shell is a project aimed at creating and maintaining a 100% POSIX specification compatible shell for the UNIX/Linux (or other POSIX systems.)  posh is intended to adhere to the POSIX Shell Specification (IEEE Std 1003.1, 2004 Edition).  posh will containing nothing more or less than the POSIX Shell Specification.
+
+A secondary, but equally important goal of posh is to provide a system level scripting shell for POSIX operating systems that will have readily auditable source code, for security analysis and auditing.
+

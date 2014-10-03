@@ -1,0 +1,14 @@
+Authors of gray
+
+The following contributions warranted legal paper exchanges
+with Patrick Head and/or Michael McConachie.
+
+Also see files ChangeLog and THANKS
+
+Patrick Head:
+  entire files  -> src/*.c include/*.h
+  modifications -> src/*.c include/*.h
+
+Michael McConachie:
+  entire files  -> src/*.c include/*.h
+  modifications -> src/*.c include/*.h
