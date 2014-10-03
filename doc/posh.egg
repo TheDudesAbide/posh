@@ -178,7 +178,7 @@ assignment-word = word + equal ;
 
 name = word ; (* is this right, or is word more inclusive than name? *)
 
-newline = lf ; (* can this also include cr, vt, etc *)
+newline = lf ;
 
 io-number = decimal-digits{1,*} + greater-than ;
 
@@ -279,11 +279,17 @@ for-predicate = wordlist{0,1} + sequential-sep ;
 wordlist = word{1,*} ;
 
 case-clause = case
+              + blank-list
               + word
+              + blank-list
               + linebreak
+              + blank-list
               + in
+              + blank-list
               + linebreak
+              + blank-list
               + case-content{0,1}
+              + blank-list
               + esac
               ;
 
@@ -402,6 +408,10 @@ here-end = word ;
 newline-list = newline{1,*} ;
 
 linebreak = newline-list{0,1} ;
+
+blank = space | tab ;
+
+blank-list = blank{1,*} ;
 
 separator-op = ampersand | semicolon ;
 
